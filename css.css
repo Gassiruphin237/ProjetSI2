@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+   background-image:url(g.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    font-family: harrington;
+  }
+  .e{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+  }
+  .container {
+    max-width: 450px;
+    width: 100%;
+    margin:  auto;
+    position: relative;
+  }
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="password"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  #contact {
+   background-color: rgb(194, 194, 194);
+    padding: 25px;
+    margin: 150px 0;
+  }
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .larg {
+    height:20px ;
+}
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="password"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: rgb(255, 255, 255);
+    margin: 0 0 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  } 
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: rgb(0, 0, 0);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+#contact button[type="reset"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #c7140e;
+  color: rgb(0, 0, 0);
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+#contact button[type="submit"]:hover{
+background: #ffffff;
+}
+#contact button[type="reset"]:hover{
+    background: #ffffff;
+    }

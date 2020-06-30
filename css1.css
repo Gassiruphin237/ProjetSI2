@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+   background-image:url(dd.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: harrington;
+  }
+  .e{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+  }
+  .container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .larg {
+    height:20px ;
+    width: 20px;
+  }
+  #contact input[type="text"],
+  #contact input[type="password"],
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  #contact {
+    padding: 25px;
+    margin: 150px 0;
+  }
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  #contact input[type="text"],
+  #contact input[type="password"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: rgb(255, 255, 255);
+    margin: 0 0 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  } 
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: rgb(0, 0, 0);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+#contact button[type="reset"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #c7140e;
+  color: rgb(0, 0, 0);
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+#contact button[type="submit"]:hover{
+background: #ffffff;
+}
+#contact button[type="reset"]:hover{
+    background: #ffffff;
+    }
+p{
+  color:#000000;
+  font-family: harrington;
+  text-align: right;
+}
